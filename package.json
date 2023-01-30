@@ -1,12 +1,15 @@
 {
-  "name": "electron-quick-start",
+  "name": "Picture_Widget",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "在桌面上固定图片",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/This-is-can/Picture-Widget.git"
+  },
   "keywords": [
     "Electron",
     "quick",
@@ -17,6 +20,10 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^22.1.0"
-  }
+    "electron": "^7.1.7"
+  },
+  "bugs": {
+    "url": "https://github.com/electron/electron-quick-start/issues"
+  },
+  "homepage": "https://github.com/electron/electron-quick-start#readme"
 }
