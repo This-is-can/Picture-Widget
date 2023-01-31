@@ -7,8 +7,14 @@ function createWindow () {
   const mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
+    frame: false,
+    //titleBarStyle: 'hidden',
+    transparent: true,
+    titleBarStyle: 'hidden',
+    skipTaskbar: false,//是否在任务栏中显示窗口
     webPreferences: {
-      preload: path.join(__dirname, 'preload.js')
+      preload: path.join(__dirname, 'preload.js'),
+      nodeItegration: true
     }
   })
 
